@@ -1,0 +1,73 @@
+name: Policy change request
+description: Propose a change to community policies
+title: "Policy change: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose updates to community policy documents (not rules). Keep it concise and specific.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One-sentence overview of the change.
+      placeholder: "Clarify moderation escalation steps for X"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-policy
+    attributes:
+      label: Current policy section
+      description: Quote or link to the current policy text.
+      placeholder: "moderation.md > Escalations: ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change
+      description: The exact text you want to add/replace/remove.
+      placeholder: "Replace with: ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why this change is needed. Include concrete examples if possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact / enforcement notes
+      description: Expected impact on moderation/enforcement or community behavior.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other options you considered and why they were rejected.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I reviewed existing policy docs to avoid duplicates.
+          required: true
+        - label: I wrote the proposed text in a clear, enforceable way.
+          required: true
+        - label: I wrote this in my human voice with no AI assistance.
+          required: true

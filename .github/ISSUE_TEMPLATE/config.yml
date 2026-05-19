@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Appeals
+    url: <TBD: appeals URL>
+    about: Appeal a moderation action.
+  - name: Report a moderator
+    url: <TBD: appeals URL>
+    about: Report a moderator.
+  - name: Report a security vulnerability
+    url: ../../../SECURITY.md
+    about: See the security policy for private reporting channels.
