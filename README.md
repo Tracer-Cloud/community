@@ -14,6 +14,9 @@ If you think that something should be changed in our policies, feel free to open
 - [Roles Reference](roles.md)
 - [Incident Playbook](incident-playbook.md)
 - [Security Policy](SECURITY.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [First Contribution / Getting Started](FIRST_CONTRIBUTION.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 
 # Community Staff Structure
 
@@ -68,7 +71,7 @@ flowchart TD
 
 ### Contributor Support
 
-- Owns #contributors-helping-contributors and related contributor channels.
+- Owns #contribute and related contributor channels.
 - Helps members working on assigned GitHub issues unblock themselves.
 - Reviews contributor role claim requests where applicable.
 

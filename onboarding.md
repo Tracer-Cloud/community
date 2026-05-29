@@ -19,7 +19,7 @@ Community Staff is not split into separate teams. These are areas of responsibil
 - **Maintainer**: works alongside the Admin on community coordination, and also carries moderator responsibilities across Discord text and voice spaces.
 - **Moderator**: general rule enforcement across Discord text and voice spaces.
 - **Help**: support channels, OpenSRE help, triage.
-- **Contributor Support**: #contributors-helping-contributors and contributor onboarding.
+- **Contributor Support**: #contribute and contributor onboarding.
 - **Events**: Coding Night and community events.
 - **Bot Managers**: elevated permission group for bot/configuration access, not a separate area.
 

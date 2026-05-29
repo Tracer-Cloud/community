@@ -12,7 +12,7 @@ The goal is not to add unnecessary rules, but to reduce confusion and make colla
 
 Please take a few minutes to read:
 
-- [`contributing.md`](./contributing.md)
+- [`CONTRIBUTING.md`](./CONTRIBUTING.md)
 - [`rules.md`](./rules.md)
 - Existing PRs and review comments
 - Relevant issue discussions
